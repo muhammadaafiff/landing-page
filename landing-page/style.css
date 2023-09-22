@@ -1,0 +1,128 @@
+/* Tambahkan kode CSS kalian di file ini */
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, nav{
+    background-color: #DDEEDF;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+#logo{
+    margin: 10px;
+}
+
+#contact{
+    margin: 5px 10px;
+}
+
+body{
+    width: 100%;
+    background-color: #F2F9F1;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    position: sticky;
+    top: 0px;
+}
+
+nav > ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-to-account{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#btn-masuk{
+    font-size: 16px;
+    border: none;
+    background-color: #DDEEDF;
+}
+
+#btn-masuk:hover{
+    background-color: #B6CDBD;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#btn-daftar{
+    font-size: 16px;
+}
+
+hr{
+    margin: 0px;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero-pic{
+    border-radius: 10px;
+}
+
+
+#cta-button{
+    display: flex;
+    justify-content: flex-end ;
+    gap: 10px;
+}
+
+main{
+    margin:50px; 
+}
+
+
+#headline{
+    text-align: center;
+}
+
+#headline > h1{
+    font-size: 36px;
+}
+
+#description{
+    text-align: justify;
+}
+
+#daftar-biodata{
+    margin-top: 20px;
+}
+
+
+
+
